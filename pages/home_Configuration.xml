@@ -1,0 +1,9 @@
+<Configuration>
+  <Page>
+    <PageEntity value="MAIN" />
+    <PageFilterCommand Command="SP_PAGE_MAIN" ParameterValues="2|F|TEST" />
+    <PageContextEntities>
+      <Add Entity="SECOND" Command="GBL_SP" ParameterValues="2|F|TEST" />
+    </PageContextEntities>
+  </Page>
+</Configuration>

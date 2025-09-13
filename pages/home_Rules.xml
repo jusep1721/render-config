@@ -1,0 +1,15 @@
+<Rules>
+  <Rule name="OcultarComponente">
+    <Actions>
+        <Action ComponentType="ProductList" ActionType="VISIBLE" value="true" />
+        <Action ComponentType="ProductList" ActionType="ENABLE" value="true" />
+    </Actions>
+  </Rule>
+
+  <Rule name="DeshabilitarComponente">
+    <Actions>
+        <Action ComponentType="CartSummary" ActionType="VISIBLE" value="true" />
+        <Action ComponentType="CartSummary" ActionType="ENABLE" value="false" />
+    </Actions>
+  </Rule>
+</Rules>

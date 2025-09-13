@@ -1,0 +1,4 @@
+<page id="home" layout="AdminLayout" PageCss="testing.css">
+  <component name="ProductList" />
+  <component name="CartSummary" />
+</page>
