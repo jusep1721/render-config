@@ -12,4 +12,10 @@
         <Action ComponentType="CartSummary" ActionType="ENABLE" value="false" />
     </Actions>
   </Rule>
+
+  <Rule name="ACTIONS">
+    <Actions>
+        <Action ComponentType="ProductList" ActionType="ACTION" value="savePage()" />
+    </Actions>
+  </Rule>
 </Rules>
