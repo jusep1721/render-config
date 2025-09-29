@@ -26,7 +26,6 @@
   <Rule Name="CONDITIONS">
     <Conditions LogicalOperation="AND">
       <Condition FieldName="TEST.VISIBLE" Operation="Equals" Value="Y" />
-      <Condition FieldName="TEST2.OTHER" Operation="Equals" Value="OTHER" />
     </Conditions>
     <Actions>	
       <Action ComponentType="ProductList" ActionType="ENABLE" value="false" />	
