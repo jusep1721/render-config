@@ -18,4 +18,18 @@
         <Action ComponentType="ProductList" ActionType="ACTION" value="savePage()" />
     </Actions>
   </Rule>
+
+  <!-- VISIBLE es el alias que devuelve el SP que carga la entidad TEST -->
+  <!-- Equals es igual a ... -->
+  <!-- NotEquals es no igual a ... -->
+
+  <Rule Name="CONDITIONS">
+    <Conditions LogicalOperation="AND">
+      <Condition FieldName="TEST.VISIBLE" Operation="Equals" Value="Y" />
+      <Condition FieldName="TEST2.OTHER" Operation="Equals" Value="OTHER" />
+    </Conditions>
+    <Actions>	
+      <Action ComponentType="ProductList" ActionType="ENABLE" value="false" />	
+    </Actions>
+  </Rule>
 </Rules>

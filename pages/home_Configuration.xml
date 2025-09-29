@@ -1,9 +1,11 @@
 <Configuration>
   <Page>
     <PageEntity value="MAIN" />
-    <PageFilterCommand Command="SP_PAGE_MAIN" ParameterValues="2|F|TEST" />
+    <PageFilterCommand Command="GBL_DYNAMIC_MAIN_TESTING_ENTITY" ParameterValues="1|TEST" />
+    <PageUpdateCommand Command="SP_UPDATE" ParameterValues="1|TEST" />
+		<PageDeleteCommand Command="SP_DELETE" ParameterValues="1|TEST" />
     <PageContextEntities>
-      <Add Entity="SECOND" Command="GBL_SP" ParameterValues="2|F|TEST" />
+      <Add Entity="TEST" Command="GBL_DYNAMIC_TESTING_ENTITY" ParameterValues="1|TEST" />
     </PageContextEntities>
   </Page>
 </Configuration>
